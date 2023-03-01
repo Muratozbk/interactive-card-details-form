@@ -1,5 +1,5 @@
 # Frontend Mentor - Interactive card details form
-
+## View on Netlify : https://mrtzbk-interactive-card-form.netlify.app/ [![Netlify Status](https://api.netlify.com/api/v1/badges/94c56dd4-8bdb-40e5-9496-750fcd0b6308/deploy-status)](https://app.netlify.com/sites/mrtzbk-interactive-card-form/deploys)
 ![Design preview for the Interactive card details form coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
