@@ -40,6 +40,7 @@ function setCardCvc(e) {
 function format(s) {
     return s.toString().replace(/\{4}(?=.)/g, "$&");
 }
+
 function handleSubmit(e) {
     e.preventDefault();
     if (!nameInp.value) {
@@ -78,10 +79,11 @@ function handleSubmit(e) {
         cvcInp.parentElement.classList.remove('error_message');
     }
     if (nameInp.value && numberInp.value && monthInp.value && yearInp.value && cvcInp.value) {
-        completed.classList.remove('hidden');
-        form.classList.add('hidden')
+        completed.classList.toggle('hidden');
+        form.classList.toggle('hidden')
     }
 }
+document.querySelector('.contin').addEventListener('click', handleSubmit)
 
 numberInp.addEventListener('keyup', setCardNumber)
 nameInp.addEventListener('keyup', setCardName)
